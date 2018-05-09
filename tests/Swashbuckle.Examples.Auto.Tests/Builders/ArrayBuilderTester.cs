@@ -12,7 +12,7 @@ namespace Swashbuckle.Examples.Auto.Tests.Builders
 	public class ArrayBuilderTester
 	{
 		[Test]
-		public void Create_NotAProperty_NoOp()
+		public void Create_NotAProperty_NoOp2()
 		{
 			var subject = new ArrayBuilder();
 			object notAProperty = typeof(int);
